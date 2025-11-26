@@ -1,16 +1,14 @@
-Docker compose file to demo the (grafana-kafka-datasource)[https://github.com/hoptical/grafana-kafka-datasource/tree/main/example/go]
+Docker compose file to demo Hamed Karbasi's [grafana-kafka-datasource](https://github.com/hoptical/grafana-kafka-datasource/tree/main/example/go)
 
-Build the producer then start the docker image:
+Simply run:
 ```
 docker compose up
-````
-
-To build the producer docker image:
-```
-docker compose build producer
 ```
 
-The producer code is almost a clone of (the example provided)[https://github.com/hoptical/grafana-kafka-datasource/tree/main/example/go] in the kafka-datasource repo.
+The Kafka plugin and example dashboard should be already provisioned:
+![<Kafka dashboard>](./images/kafka-dashboard.png)
+
+The producer code is almost a clone of [the example provided](https://github.com/hoptical/grafana-kafka-datasource/tree/main/example/go) in the kafka-datasource repo.
 It has been extended to produce "real life" data via the `-mode` flag.
 
 `-metrics` simulates server metrics:
@@ -24,7 +22,7 @@ It has been extended to produce "real life" data via the `-mode` flag.
 ```
 
 `-iot` simulates sensor readings:
-````
+```
 {
   "device": "sensor-9",
   "temp": 22.1,
