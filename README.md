@@ -6,7 +6,11 @@ docker compose up
 ```
 
 The Kafka plugin and example dashboard should be already provisioned:
+`http:http://localhost:3000/d/admfqdh/kafka?orgId=1&from=now-15m&to=now&timezone=browser&var-parition=`
 ![<Kafka dashboard>](./images/kafka-dashboard.png)
+
+Redpanda should also be available to inspect the Kafka messages at:
+`http://localhost:8080`
 
 The producer code is almost a clone of [the example provided](https://github.com/hoptical/grafana-kafka-datasource/tree/main/example/go) in the kafka-datasource repo.
 It has been extended to produce "real life" data via the `-mode` flag.
