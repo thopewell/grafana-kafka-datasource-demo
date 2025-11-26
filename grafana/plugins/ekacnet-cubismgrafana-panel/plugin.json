@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Cubism Graph",
+  "id": "ekacnet-cubismgrafana-panel",
+  "info": {
+    "keywords": ["panel"],
+    "description": "A panel to display cubism like graph in grafana",
+    "author": {
+      "name": "Matthieu Patou"
+    },
+    "logos": {
+      "small": "img/cubismlogo_large.png",
+      "large": "img/cubismlogo_large.png"
+    },
+    "links": [],
+    "screenshots": [{"name": "simple panel", "path":"img/screenshot.png"}],
+    "version": "0.1.2",
+    "updated": "2025-06-05"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.3.3",
+    "plugins": []
+  }
+}

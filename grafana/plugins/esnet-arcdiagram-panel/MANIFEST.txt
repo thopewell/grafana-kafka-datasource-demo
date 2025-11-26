@@ -1,0 +1,41 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "esnet",
+  "signedByOrgName": "esnet",
+  "plugin": "esnet-arcdiagram-panel",
+  "version": "1.0.4",
+  "time": 1702080840811,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "module.js": "15d4450385a86212e9ed58c9fb9c4fe82de02e35aa5304ae82a02f9ecfa2ad04",
+    "img/logo_old.svg": "1defc6f7e585c67657bcfd8fddc599ee7dfa82f8674413f49fa274c2cd453ec6",
+    "img/plus_icon.svg": "999afdb1c3d27f1d7eb1d333563fe48085df7b7fcb97a22f3e97cafcbbeafa50",
+    "img/area_zoom_out.svg": "d900d7fc20a0cde9624a53d5dedd148eaa13efb09be50bca94842cd9ab48acab",
+    "img/arcdiagram-plugin.png": "8e0a92079caa84e3e99dc51992685cc75347727d3d13c4bd2e7ca916e7a58b5c",
+    "img/area_zoom_in.svg": "4d9e649760e8985956facc158238e83983ff027d1c53ab79344129292d1e58be",
+    "img/reset_icon.svg": "b09c3c7d13cb26f4c0ae2247bc9de797c186f04ab8ef539460a5f33324f615aa",
+    "img/logo.svg": "58a29407d37ca48064c423e51df02e6ae3ee8ea9623eb5c7a4e26ffbb3df54e3",
+    "img/minus_icon.svg": "a664a77a64597f4bf3d9741aa75883c38646e88a31275eb47ae5db2b4b9c5dd9",
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "module.js.map": "1779c762d31fe427917b0aa263346061479d389fb009f12529f6372c251ebc0f",
+    "CHANGELOG.md": "aaa78be4710ef41d56ddab1edbd180ef9f9adfea2f293109aae925dc33a1b9b3",
+    "plugin.json": "188b36845476c5929b0782bffcfe69bb6f91ffc8da9fc7de25cd8454c7e46221",
+    "README.md": "44297cb3894339d6c22c60620f3381373d851757e72fdb6bf358c2eabf0abfc8"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.10
+Comment: https://openpgpjs.org
+
+wrgEARMKAAYFAmVzsUgAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm53DSAgiODP+Y6BLCyz4v09PReqcmMhhuRIgeFgpai08YN7FF23S/27Q4
+K/XKpe2LmQbxTzpkwdyUAqMlsT/QgLtmEzbzBQIJAeA+lEfseq8aF+7QQSJE
+vysVMAsPii8GgCc7++Mk18OqFTu5uhn7GnvewlusaVvxs/ZNxhwvKrvH5YAw
+VDhttsqS
+=+3E+
+-----END PGP SIGNATURE-----

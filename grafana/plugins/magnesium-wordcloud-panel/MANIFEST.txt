@@ -1,0 +1,36 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "magnesium",
+  "signedByOrgName": "magnesium",
+  "plugin": "magnesium-wordcloud-panel",
+  "version": "1.2.11",
+  "time": 1702556942381,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "CHANGELOG.md": "a6717e7770fe33ea785c130dd4f61e21224bf6a9e503f534565d46d0f0837943",
+    "module.js.map": "bf591b50e20c5929a018f735f9f12e2be5c99f8d21f81b94387586f36b3c79f4",
+    "plugin.json": "abaae85f9da9dab2abf7167e01a6ef08fa34291a55ebffdfde16602a5cabe302",
+    "README.md": "4e277cb951123dd1a6bcf7ece5104602af46efd5df658f48d61091f799d4562b",
+    "img/wordcloud-screenshot.png": "cdbfee8e3403dcf60b6af1a5aae3be87ae9ec48e84a4c9133c14e38fd41624ff",
+    "img/wordcloud-screenshot-query.png": "ec328d0bd1bde803ae618183bb3c9e6600f631b11c0f1adb0b8d2078f68ec80c",
+    "img/logo.svg": "1defc6f7e585c67657bcfd8fddc599ee7dfa82f8674413f49fa274c2cd453ec6",
+    "module.js": "a40250841b176d85ec5dcfda00eab1e1f2cf7986dfbb11678f3f08feaba92f19"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.10
+Comment: https://openpgpjs.org
+
+wrkEARMKAAYFAmV69Q4AIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm5z4OAgkBuM/pA/HBjCZKfE4YmERkC8gVxv9I0Cw3AExNKQ0+ezAHu8+l
+YMLqzZDj09MuZa8pABpKPTxv8kZeO4ArcsbHqMYCCQFnxpD3AcBechoHoLjR
+yblkwjGZPyp0yq/yIjdL64DfsUMYQZdsvLFpRvPeMOl2Iv6AyK31JkA9GTBN
+V81AkKSDjA==
+=Vofl
+-----END PGP SIGNATURE-----

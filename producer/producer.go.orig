@@ -1,0 +1,40 @@
+package main
+
+import (
+	"context"
+	"flag"
+	"fmt"
+	"math/rand"
+	"time"
+
+	kafka "github.com/segmentio/kafka-go"
+)
+
+func main() {
+	broker := flag.String("broker", "localhost:9092", "Kafka broker address")
+	topic := flag.String("topic", "test", "Kafka topic")
+	interval := flag.Int("interval", 500, "Interval ms")
+	flag.Parse()
+
+	writer := &kafka.Writer{
+		Addr:     kafka.TCP(*broker),
+		Topic:    *topic,
+		Balancer: &kafka.LeastBytes{},
+	}
+
+	fmt.Println("Producer started")
+	rand.Seed(time.Now().UnixNano())
+
+	for {
+		msg := kafka.Message{
+			Value: []byte(fmt.Sprintf(`{"value": %d}`, rand.Intn(1000))),
+		}
+
+		err := writer.WriteMessages(context.Background(), msg)
+		if err != nil {
+			fmt.Println("Error:", err)
+		}
+
+		time.Sleep(time.Duration(*interval) * time.Millisecond)
+	}
+}

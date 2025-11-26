@@ -1,0 +1,43 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "digrich",
+  "signedByOrgName": "Digvijay Richhariya",
+  "plugin": "digrich-bubblechart-panel",
+  "version": "2.0.1",
+  "time": 1705999838925,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "CHANGELOG.md": "aaa78be4710ef41d56ddab1edbd180ef9f9adfea2f293109aae925dc33a1b9b3",
+    "img/BC2.png": "7f55647bc3e1d7ece92cab3742b07b6742eb7d5ff8709430f78456e11e16efc3",
+    "img/BC3.png": "c79bf6886ba4876aa577f1667185fff183d12ce260be49e0953cda4d9140ab39",
+    "img/ColorScheme.png": "6475ae02db294b80e9e6ff0b8dcd45c9f457c8a7dcd56c9b85901da8c312b1e2",
+    "img/BC6.png": "3b9500b524aa5e9ffa6abab799b271362a44bd6b6c7e1a129fe134a8816fa19b",
+    "img/BC4.png": "ef1114815063dbf947b4549228e8ad61984413b5e428be49c17138c67ae9a637",
+    "img/logo.svg": "a50b461e3ddc0556dc1e8d92d1350d1858b53c90ba63fb4b70d9c26d25623333",
+    "img/BC5.png": "20a516dd9daa369e26af62eb12aecf3e0f5f10ce94901334f3af303e24d0279e",
+    "img/Options.png": "35a49fd000d38e2b37a20de9f2848148069316848b02654c4f66fa6d55449ffd",
+    "img/BC1.png": "b6bccdb5920f1130d941a7912d8f7dd4f6b6558b554089e515df2c0870970946",
+    "module.js.LICENSE.txt": "4108c6739c15de48af24d4579c1799fe6d9158d0738d754237ce218497930146",
+    "plugin.json": "c8720a899f0c93be8b1bb62120ef1ac1b50e7c94546697606fec355b321fa2a5",
+    "module.js.map": "b583892d4b0aff961dbca104dd1cf69abd7c523ea015d188656fa8c55bb24911",
+    "LICENSE": "c5accbbd8546e94c34aed24afe689a617627d18eed5a6c48277e48db57c23851",
+    "module.js": "19d9573dc32115b4196c86e6dd6ca10aeae2a06e30c5824d78e777ee56534a86",
+    "README.md": "4baeaafec4a548a824cb87f75565bbd21c98e2af0e2cfe6938bbc220e8fbeb57"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.10
+Comment: https://openpgpjs.org
+
+wrcEARMKAAYFAmWvfd8AIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm56MdAgY1rc76Cm5H/ylY3D2W1r0D2VqlOQ2228eSJtCRzZkKn4sXov6Q
+LDq4hG+tcjzYRm52iDAzXvbCx8crGET2CeXywAIHYRNf+8hkSzOEJNNePZ//
+wwNB54N0xZtKJh8Fm/RMU/HbYF+N0DEtU4kHzyPkTs6F47RpAOFoiU0tDxE/
+vR1sQsU=
+=z3T4
+-----END PGP SIGNATURE-----

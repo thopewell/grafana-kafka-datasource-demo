@@ -1,0 +1,23 @@
+apiVersion: 1
+
+datasources:
+  - name: hamedkarbasi93-kafka-datasource
+    type: hamedkarbasi93-kafka-datasource
+    access: proxy
+    uid: PD30006EDFA115CB0
+    isDefault: true
+    editable: true
+    jsonData:
+      bootstrapServers: kafka:9092
+      clientId: ""
+      healthcheckTimeout: 2000
+      logLevel: ""
+      pdcInjected: false
+      saslMechanisms: ""
+      saslUsername: ""
+      securityProtocol: PLAINTEXT
+      serverName: ""
+      timeout: 0
+      tlsAuth: false
+      tlsAuthWithCACert: false
+      tlsSkipVerify: false

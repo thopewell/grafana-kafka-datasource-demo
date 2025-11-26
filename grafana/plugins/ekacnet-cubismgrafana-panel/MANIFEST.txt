@@ -1,0 +1,35 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "ekacnet",
+  "signedByOrgName": "ekacnet",
+  "plugin": "ekacnet-cubismgrafana-panel",
+  "version": "0.1.2",
+  "time": 1749139773092,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "img/cubismlogo_large.png": "c2eaa820ff082ce13c272bd17fa3fbf039223a3a82ad3822fd37cc74af881c49",
+    "img/screenshot.png": "d6b8eafd52d9b50548db473ad418d36bfea7b1f81b2b1d86bbaee079a61c0aa0",
+    "CHANGELOG.md": "166e3e42dcde73770a679f244cb9a42b23c0abb2b1a6879ad468f184fd5f6a02",
+    "README.md": "020564dca542c2a00fe1422606318959ce5dfda25cf422811b7d06a791f6ff52",
+    "module.js.map": "7231fe688ed1f6327823f8828108393002b6d2b162989e4be5ddc10c63618037",
+    "LICENSE": "a1e4e62d5997437e58925ade0d5fbe4049f040445034d57e26ade0645f8fb9d3",
+    "module.js": "1f5b15cb70358451b80397b1da5ed1239f41050d30d7c3952c6fe7b76be36591",
+    "plugin.json": "0fe5ca4bd7642b33eae1e180b0c7b34eb5470e439119e39764aba19b9124b2d0"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.11
+Comment: https://openpgpjs.org
+
+wrkEARMKAAYFAmhBwT0AIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm5yTbAgkBa7nmzh7bv7ZBou7p66jQDD7SUOhsGvKzxKlMAt64ZE73uUTX
+dFFyGdS9ZCpHPc4nH9/T/2r5ALH4OOyjQj7MVv4CCQDs/hoKrANAQOph9hkY
+XBL3A/TN08zdrAJbFDEUgGTnbiyfOI7FmPcO55Bl3G81RyJ4MPI9qVsn7wSI
+yv8+x4f7Bw==
+=yqIq
+-----END PGP SIGNATURE-----
