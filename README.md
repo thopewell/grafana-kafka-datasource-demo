@@ -6,9 +6,10 @@ docker compose up -d
 ```
 
 The Kafka plugin and example dashboard should be already provisioned:
-`http://localhost:3000/d/admfqdh/kafka?orgId=1&from=now-15m&to=now&timezone=browser&var-parition=`
-![<Kafka dashboard>](./images/kafka-dashboard.png)
+[http://localhost:3000/d/admfqdh/kafka?orgId=1&from=now-15m&to=now&timezone=browser](http://localhost:3000/d/admfqdh/kafka?orgId=1&from=now-15m&to=now&timezone=browser)
 (default user/password is admin/admin)
+
+![<Kafka dashboard>](./images/kafka-dashboard.png)
 
 Redpanda should also be available to inspect the Kafka messages at:
 `http://localhost:8080`
