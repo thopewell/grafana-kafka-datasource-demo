@@ -2,15 +2,18 @@ Docker compose file to demo Hamed Karbasi's [grafana-kafka-datasource](https://g
 
 Simply run:
 ```
-docker compose up
+docker compose up -d
 ```
 
 The Kafka plugin and example dashboard should be already provisioned:
-`http:http://localhost:3000/d/admfqdh/kafka?orgId=1&from=now-15m&to=now&timezone=browser&var-parition=`
+`http://localhost:3000/d/admfqdh/kafka?orgId=1&from=now-15m&to=now&timezone=browser&var-parition=`
 ![<Kafka dashboard>](./images/kafka-dashboard.png)
+(default user/password is admin/admin)
 
 Redpanda should also be available to inspect the Kafka messages at:
 `http://localhost:8080`
+
+![<Architecture>](./images/docker-compose.png)
 
 The producer code is almost a clone of [the example provided](https://github.com/hoptical/grafana-kafka-datasource/tree/main/example/go) in the kafka-datasource repo.
 It has been extended to produce "real life" data via the `-mode` flag.

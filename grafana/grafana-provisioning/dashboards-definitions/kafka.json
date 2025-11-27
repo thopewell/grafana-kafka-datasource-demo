@@ -18,7 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 3,
+  "id": 2,
   "links": [],
   "panels": [
     {
@@ -439,5 +439,5 @@
   "timezone": "browser",
   "title": "Kafka",
   "uid": "admfqdh",
-  "version": 1
+  "version": 2
 }
